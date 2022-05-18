@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 *{
     box-sizing: border-box;
 }
@@ -16,14 +6,14 @@ body{
     font-family: 'Courier New', Courier, monospace;
     line-height: 22px;
     font-size: 16px;
-
-  
 }
 .f_header{
     color: none;
     text-decoration: none;
     border-bottom: solid 1px rgba(0, 139, 139, 0.521);
     margin: 0 auto;
+    text-transform: capitalize;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -65,10 +55,32 @@ a{
 }
 
 .sub_menu li a{
-
-width: 130px;
-    
+width: 130px;   
 }
 
-
+.f_header img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
 /* responsive  */
+.f_toogle {
+    float: right;
+    
+
+}
+.f_toogle .hamburger {
+    display: none;
+}
+.f_toogle .cancel {
+    display: none;
+}
+/* Small devices (landscape phones, 576px and up) */
+
+
+
+
+
+
+/* <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-hamburger-32.png"> */
+/* <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-cancel-32.png"> */
