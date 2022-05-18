@@ -1,0 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200&family=Dancing+Script:wght@400;500&display=swap'); */
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#presentation {
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+}
+
+#textIntro {
+    padding: 0px 20%;
+    text-align: center;
+}
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.ImagesPrestation h3 {
+    /* font-family: 'Dancing Script', cursive; */
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+imagesPrestations img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+/* frid adding code for norina */
+#prestation img{
+    width: 150px;
+    height: 100px;
+}
