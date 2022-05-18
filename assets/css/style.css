@@ -1,38 +1,71 @@
-body{
-    padding: 0;
-    margin: 0;
-}
 
-.f_nav{
-    margin-top: -20px;
-    background-color: darkslategrey;
-    width: 100%;
-    height: 75px;
-    padding: 10px;
+
+
+
+
+
+
+
+
+
+*{
     box-sizing: border-box;
 }
-.f_nav ul {
-    display: inline-block;
-    vertical-align: auto;
-    text-transform: capitalize;
-    font-size: large;
-    margin-top: 25px;
-    color: rgb(218, 216, 216);
+body{
+    color: none;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 22px;
+    font-size: 16px;
+
+  
+}
+.f_header{
+    color: none;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
     
 }
-.f_nav li{
-   display: inline-block;
-   margin-left: 50px;
-   
+a{
+    text-decoration: none;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.f_header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    
+}
+.f_header img {
+    display: inline-block;
+    vertical-align: top;
+}
+.f_header li a {
+    display: block;
+    padding: 12px;
+    color: darkcyan;
+}
+.f_header li a:hover {
+    background-color: darkcyan;
+    color: #fff;
+}
+.f_header li:hover .sub_menu{
+    display: block;
+    /* background-color: darkcyan; */
+    color: #fff;
+}
+.sub_menu{
+    display: none;
+    color: #fff; 
+    position: absolute;
+    border: #ddd solid 1px;
+    
 }
 
-.f_nav .right{
-    float: right;
-    margin-right: 50px;
-    margin-top: 25px;
+.sub_menu li a{
+
+width: 130px;
     
-}
-.f_nav .active{
-    color: white;
-    font-weight: bold;
 }
