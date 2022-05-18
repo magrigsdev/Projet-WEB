@@ -15,6 +15,7 @@
     text-transform: capitalize;
     font-weight: bold;
     font-family: 'Advent Pro', sans-serif;
+    font-size: larger;
 }
 a{
     text-decoration: none;
@@ -56,6 +57,7 @@ a{
     color: #fff; 
     position: absolute;
     border: #ddd solid 1px;
+    background-color: #fff;
     
 }
 
@@ -64,6 +66,12 @@ width: 130px;
 }
 
 
+.f_header li span {
+    display: block;
+    padding: 12px;
+    color: darkcyan;
+    font-family:'Dancing Script', cursive; 
+}
 /* responsive  */
 .f_toogle {
     float: right;

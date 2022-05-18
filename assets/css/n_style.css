@@ -8,7 +8,7 @@ body {
 
 #presentation {
     background-color: #FFFAE1;
-    padding: 10px 0px 100px 0px;
+    padding: 10px 0px 10px 0px;
 }
 
 #textIntro {
@@ -27,7 +27,7 @@ body {
     /* font-family: 'Dancing Script', cursive; */
     text-align: center;
     font-size: 1.8em;
-    margin: 15px;
+    margin: 10px;
     font-weight: 300;
 }
 
@@ -38,6 +38,6 @@ imagesPrestations img {
 
 /* frid adding code for norina */
 #prestation img{
-    width: 150px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
